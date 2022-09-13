@@ -1,10 +1,7 @@
 body {
     background-color: #000000;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: Arial, Verdana, sans-serif;
+    margin: 20px 20px 0px 20px;
+    font-family: Arial, Verdana;
     color: #ffffff;
 }
 
@@ -21,9 +18,7 @@ h2 {
 
 p {
     font-size: 24px;
-    margin-top: 10px;
-    margin-left: 10px;
-    color: #ffffff;
+    padding: 10px 0px 0px 10px;
 
  }
 
@@ -38,19 +33,16 @@ img {
 div {
     height: flex;
     min-height: 125px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 3px outset #ffffff;
-    color: #ffffff;
+    padding: 20px;
 }
 
 
 .introduction {
     border-radius: 15px;
-    margin-top: 15px;
+    color: #ffffff;
+    margin: 15px 0px 0px 0px;
     line-height: 2.0;
+    border: 3px solid #ffffff;
 }
 
 .red {
@@ -58,20 +50,24 @@ div {
     text-align: right;
     margin-left: 50px;
     border-width: 0px 0px 2px 5px;
-}
-
-.red p {
     color: #ffffff;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
 .blue {
+
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
+    color: #c4c4c4;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+
 }
 
-.blue h2, p {
+.blue h2, .blue p {
     color: #c4c4c4;
 }
 
@@ -80,8 +76,8 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-width: 0px 0px 2px 5px;
-
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
 .yellow p {
@@ -92,14 +88,25 @@ div {
 
     background-color: #008500;
     text-align: left;
-    border-width: 2px 5px 0px 0px;
+    margin: 0px 50px 0px 0px;
+    color: #ffffff;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 
 }
 
 footer {
+
     background: linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 75%, rgba(0,0,0,1) 100%);
     border: 5px solid #ffffff;
-    text-align: right;
-    padding: 15px 15px 15px 15px;
+    
+}
+
+footer > p {
+
     color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px
+
 }
