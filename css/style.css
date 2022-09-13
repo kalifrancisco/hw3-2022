@@ -31,7 +31,7 @@ img {
 }
 
 div {
-    height: flex;
+    flex: auto;
     min-height: 125px;
     padding: 20px;
 }
